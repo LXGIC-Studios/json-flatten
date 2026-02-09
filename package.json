@@ -1,0 +1,42 @@
+{
+  "name": "@lxgicstudios/json-flatten",
+  "version": "1.0.0",
+  "description": "Flatten nested JSON to dot-notation key-value pairs and unflatten back. Custom delimiters, path filtering, and pipe-friendly CLI.",
+  "main": "dist/index.js",
+  "bin": {
+    "json-flatten": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "json",
+    "flatten",
+    "unflatten",
+    "dot-notation",
+    "nested",
+    "transform",
+    "cli",
+    "key-value",
+    "path",
+    "jq",
+    "pipe"
+  ],
+  "author": "LXGIC Studios",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lxgicstudios/json-flatten"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.2",
+    "typescript": "^5.9.3"
+  }
+}
